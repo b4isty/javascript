@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        var number ="1234567890";
+        try{
+            if(number.length !=10){
+                throw("Please enter a 10 digit number");
+
+            }
+            else{
+                document.write(number);
+            }
+        }
+        catch(e){
+            alert("Error"+e);
+        }finally{
+            document.write("</br>"+"This is going to be executed");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

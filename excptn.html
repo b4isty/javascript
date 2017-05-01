@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        var a = 100;
+        var b = 0;
+        try{
+            if(b == 0){
+                throw("Divided by Zero error");
+            }
+            else{
+                var c = a/b;
+                document.write(c);
+            }
+        } catch(e){
+            alert("Error"+e)
+        } finally{
+            document.write("This will be executed no matter what ");
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
